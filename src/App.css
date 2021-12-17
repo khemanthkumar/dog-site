@@ -1,38 +1,116 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.login{
   display: flex;
-  flex-direction: column;
+margin-top: -16px;
+ background-image: url("../public//back.jpg");
+ height: 25cm;
+ width:44cm
+}
+.login-container{
+  background-color: #0d4899;
+  border-radius: 9px;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  margin-left: 14cm;
+  margin-top: 6cm;
+  height:400px;
+  width: 460px;
+  border-style:inherit;
+  box-shadow: -15px -15px -15px rgba(255,255,255,0.2),
+  15px 15px 1px rgba(0,0,0,0.1),
+   inset -5px -5px -5px rgba(255,255,255,0.2) ,
+   inset 5px 5px 5px rgba(0,0,0,0.1) ;
+}
+
+
+
+
+.login-image>img{
+  width: 400px;
+  margin-left: 25px;
+  
+  
+}
+.login-name{
+  margin-left: 1.5cm;
+  
+  
+}
+.login-name1{
+  margin-top: -35px;
+  margin-left: 1cm;
+
+}
+.login-name2{
+  margin-top: -35px;
+  margin-left: 1cm;
+
+}
+.text{
+  height:25px;
+  width:300px;
+  padding-left: 0.2cm;
+}
+.logo{
+  background-color:rgb(226, 221, 212);
+  margin-top: 20px;
+  
+}
+.login-button{
+  margin-top: 20px;
+  margin-left: 1.5cm;
+  
+}
+.button1{
+  height:0.7cm;
+  width:2.5cm;
+  background-color: #0d4899;
+  border:1px solid white;
   color: white;
+ border-radius: 7px;
+ cursor: pointer;
+ 
+  
+}
+.button2{
+  height:0.7cm;
+  background-color: #0d4899;
+  border:1px solid white;
+  margin-left: 1.5cm;
+  color: white;
+  border-radius: 7px;
+  cursor: pointer;
+   
+}
+.button1:hover{
+  border-color: black;
+  background-color: rgb(235, 226, 226);
+  color: black;
+}
+.button2:hover{
+ 
+  border-color: black;
+  background-color: rgb(235, 226, 226);
+  color:black
+}
+.login-buttomimage{
+  display: flex;
+  align-items: center;
+  margin-left: 1cm;
+  margin-top:0.9cm ;
+
+}
+.sponcer{
+
+  height:2cm;
+  width: 3cm;
+  padding-right: 15px;
+  border-radius: 7px;
+  cursor: pointer;
+}
+.slide-container{
+  height:10cm;
+  width: 90%;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.back{
+  margin-left: -5cm;
 }
